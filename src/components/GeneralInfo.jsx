@@ -28,7 +28,7 @@ function GeneralInfo() {
 
     if (isEditing) {
         return (
-            <div className="general-info/editing">
+            <div className="general-info-editing">
                 <h2>General Information</h2>
                 <form onSubmit={handleSubmit}>
                     <input 
@@ -65,7 +65,7 @@ function GeneralInfo() {
         );
     } else {
         return (
-            <div className="general-info/display">
+            <div className="general-info-display">
                 <h2>General Information</h2>
                 <p><strong>First Name:</strong> {generalInfo.firstName}</p>
                 <p><strong>Last Name:</strong> {generalInfo.lastName}</p>

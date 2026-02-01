@@ -28,7 +28,7 @@ function EducationalInfo() {
 
     if (isEditing) {
         return (
-            <div className="educational-info/editing">
+            <div className="educational-info-editing">
                 <h2>Educational Information</h2>
                 <form onSubmit={handleSubmit}>
                     <input
@@ -65,7 +65,7 @@ function EducationalInfo() {
         );
     } else {
         return (
-            <div className="educational-info/displaying">
+            <div className="educational-info-display">
                 <h2>Educational Information</h2>
                 <p>School Name: {educationalInfo.schoolName}</p>
                 <p>Title of Study: {educationalInfo.title}</p>

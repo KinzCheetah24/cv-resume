@@ -29,7 +29,7 @@ function PracticalInfo() {
 
     if (isEditing) {
         return (
-            <div className="practical-info/editing">
+            <div className="practical-info-editing">
                 <h2>Practical Information</h2>
                 <form onSubmit={handleSubmit}>
                     <input
@@ -73,7 +73,7 @@ function PracticalInfo() {
         );
     } else {
         return (
-            <div className="practical-info/displaying">
+            <div className="practical-info-display">
                 <h2>Practical Information</h2>
                 <p>Company Name: {practicalInfo.companyName}</p>
                 <p>Position Title: {practicalInfo.positionTitle}</p>

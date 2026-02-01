@@ -1,0 +1,32 @@
+.practical-info-editing {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+
+    margin-bottom: 50px;
+}
+
+.practical-info-editing form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 200px;
+
+    gap: 10px;
+}
+
+.practical-info-display {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-left: 20px;
+
+    margin-bottom: 50px;
+}
+
+.practical-info-display button {
+    width: 200px;
+}
